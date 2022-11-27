@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/mishael-codes/news-homepage-main)
+- Live Site URL: [Live site URL here](https://mishael-codes.github.io/news-homepage-main/)
 
 ## My process
 

@@ -11,3 +11,16 @@ closeMenu.addEventListener("click", () => {
     mobileMenu.classList.remove("ham-menu");
     mobileMenu.classList.add("hidden")
   });
+
+  let navitems = document.querySelectorAll(".nav-link");
+  console.log(navitems)
+
+  navitems.forEach((navitem) => {
+    navitem.addEventListener('mouseover', () => {
+      navitem.style.color = "#f15e50"
+    })
+
+    navitem.addEventListener('mouseleave', () => {
+      navitem.style.color = "#5d5f79"
+    })
+  })

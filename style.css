@@ -9,25 +9,18 @@ body {
   background-color: #fffdfa;
 }
 
-#nav-link {
-  color: #5d5f79;
-  transition: 1s;
-}
-
-#nav-link:hover {
-  color: #f15e50;
-}
-
 #btn:active,
-#nav-link:active,
 aside div h4:active,
 .news-number + h4:active {
   scale: 1.1;
 }
 
-#icon-menu {
+#icon-menu,
+#ham-links,
+#close-menu-container{
   display: none;
 }
+
 
 #mobile-img {
   display: none;
@@ -67,6 +60,7 @@ aside div h4:hover {
 }
 
 #news {
+  width: 60%;
   background-color: #00001a;
 }
 
@@ -86,6 +80,14 @@ aside div h4:hover {
 
 .hidden {
   display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 767px) {
@@ -115,7 +117,11 @@ aside div h4:hover {
     padding-bottom: 3rem;
   }
 
-  #ham-links #nav-link {
+  #ham-links{
+    display: block;
+  }
+
+  #ham-links .nav-link {
     color: hsl(240, 100%, 5%);
     padding: 0.7rem 0;
     font-weight: 400;
@@ -127,6 +133,10 @@ aside div h4:hover {
 
   #mobile-img {
     display: block;
+  }
+
+  #news{
+    width: 100%;
   }
 
   @keyframes show {

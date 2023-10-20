@@ -51,5 +51,5 @@ Increased my knowledge of the CSS framework bootstrap...if you are stuck, just r
 ## Author
 
 - Twitter - [@mishael_codes](https://www.twitter.com/mishael_codes)
-- Instagram - [@mishael.codes](https://www.instagram.com/mishael.codes)
+- Instagram - [@mishael_codes](https://www.instagram.com/mishael_codes)
 - Frontend Mentor - [@mishael-codes](https://www.frontendmentor.io/profile/mishael-codes)
